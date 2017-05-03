@@ -1,0 +1,180 @@
+body{
+
+}
+
+/*HEADER*/
+.header-wrapper{
+  width: 100%;
+  height: 30px;
+}
+
+.page-header{
+  width: 1000px;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.page-header ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.page-header ul{
+  float: right;
+}
+
+.navbar.navbar-default.middle-nav{
+  background: transparent;
+  border: none;
+  margin-bottom: 0px;
+}
+
+.mid-nav{
+  width: 1000px;
+  height: 115px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.custom-nav{
+  max-width: 100%;
+  margin-left: 600px;
+}
+
+/*HOME*/
+.home-wrapper{
+  width: 1000px;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 180px;
+}
+
+.home-in{
+  width: 314px;
+  max-width: 100%;
+  height: 260px;
+  background: green;
+  margin: 0 auto;
+}
+
+.h1{
+  background: url(../images/h1.jpg);
+}
+
+.h2{
+  background: url(../images/h2.jpg);
+}
+
+.h3{
+  background: url(../images/h3.jpg);
+}
+
+.home-img{
+  width: 100%;
+  height: 350px;
+  background: url(../images/home-img.jpg);
+  margin-top: 25px;
+}
+
+/*hover*/
+#overlay{  
+  background:rgba(0,0,0,.75);
+  height: 100%;
+  padding-top: 110px;
+  text-align:center;
+  opacity:0;
+  -webkit-transition: opacity .25s ease;
+}
+
+.home-in:hover #overlay{
+  opacity:1;
+}
+
+#plus{  
+  font-family:Helvetica;
+  font-weight:900;
+  color:rgba(255,255,255,.85);
+  font-size:46px;
+}
+
+.shop-btn{
+  margin-top: 10px;
+}
+
+.sale{
+  width: 100%;
+  height: 100%;
+  margin-top: 25px;
+}
+
+.sale-in{
+  width: 228px;
+  height: 160px;
+  margin: 0 auto;
+  background: yellow;
+}
+
+.sale-title{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.sale-price{
+  text-align: center;
+  color: red;
+}
+
+strike{
+  color: black;
+}
+
+.motto{
+  margin-top: 25px;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid black;
+}
+
+.motto-txt{
+  text-align: center;
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.mail{
+  width: 100%;
+  max-height: 100%;
+  border-top: 1px solid black;
+}
+
+.mail-in{
+  width: 1000px;
+  max-width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+
+.mail-head{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.mail-form{
+  width: 229px;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*FOOTER*/
+footer{
+  width: 100%;
+  height: 200px;
+  background: blue;
+}
